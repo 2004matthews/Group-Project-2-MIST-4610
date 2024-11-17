@@ -1,4 +1,4 @@
-# Group Project 2 MIST-4610
+# Group Project 2 MIST4610
 Chemicals in Cosmetics Tableau Analysis
 
 # Team Members:
