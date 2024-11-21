@@ -1,5 +1,6 @@
-# Group Project 2 MIST4610
-Chemicals in Cosmetics Tableau Analysis
+# Group #6 Project 2 MIST4610
+Chemicals in California 
+Tableau Analysis
 
 # Team Members:
 1. Alexandra DiClemente, @akd27602
