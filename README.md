@@ -49,16 +49,28 @@ Analyze chemical ingredient counts overtime...
  - We can observe trends in initial reporting dates and chemical dislosure counts over time. 
 
 Importance: 
-- Public Health
-      - Identifies areas for improved safety regulations and transparency.
-- Economic Impact
-      - Helps consumers make informed purchasing decisions, affecting company sales and trust. 
-- Cultural Relevance
-      - Protects groups relying heavily on cosmetics in daily life or traditions.
-      - Protects groups that need to use these products everyday for work.
+- Public Health: Identifies areas for improved safety regulations and transparency.
+- Economic Impact: Helps consumers make informed purchasing decisions, affecting company sales and trust. 
+- Cultural Relevance: Protects groups relying heavily on cosmetics in daily life or traditions. Protects groups that need to use these products everyday for work.
   
 # Analysis Question #2:
+Which companies have the most products reported with discontinued chemicals?
+- This will help identify companies that may be trying to limit certain ingredients from their forumulas or have products that contain chemicals no longer available.
+- Capture the products and chemicals that are associated with these discontinued ingredients.
+  
+Here we can analyze product and chemical discontinuations overtime...
+- Track the trend of product and chemical discontinuations overtime to see if there is a an increase or decrease in the use chemicals that have been discontinued.
+- This can show if certain years saw a significant discontinuations of chemicals, possibly due to regulatory changes or pressure from consumers in the marketplace.
+  
+Analyze the correlation between product and chemical discontinuation...
+- We can observe the relationship between when products were discontinued and when the chemicals in those products were discontinued.
+- Do products tend to be discontinued after the chemicals are phased out?
 
+Importance:
+- Public Health and Safety: Identifies companies historically linked to products containing harmful chemicals, even if they are now discontinued. This can inform ongoing regulatory scrutiny and public awareness.
+- Regulatory Compliance: Demonstrates whether companies are actively addressing safety concerns and adapting to regulations.
+- Consumer Trust: Highlights accountability and the extent to which companies are committed to improving product safety, influencing customer perceptions and loyalty.
+- Economic Impact: Companies with numerous discontinued chemicals might face reputational risks, affecting market value and sales.
 
 # Database Manipulations:
 
