@@ -73,8 +73,8 @@ Importance:
 - Economic Impact: Companies with numerous discontinued chemicals might face reputational risks, affecting market value and sales.
 
 # Database Manipulations:
-Analysis Question #1:
-1. Filtering by Carcinogenic Ingredient Rating (aat least 1A):
+Overall Manipulation Details:
+1. Filtering by Carcinogenic Ingredient Rating (at least 1A):
 - Purpose: Focusing on chemicals with high carcinogenic potential and eliminate less important results from the data.
 - Implementation: A filter was added to include only products with carcinogenic ingredients meeting the 1A minimum.
 2. Grouping Data by Product Categories and Companies:
@@ -87,7 +87,7 @@ Analysis Question #1:
 - Purpose: Track reporting trends and chemical disclosures over time.
 - Implementation: Convert the "Initial Date Reported" field to a month-year format. Combine the distinct chemical counts by reporting month to visualize trends.
 
-Analysis Question #1 Graph #1
+Analysis Question #1 Graphs:
 1. Bubble Chart (Distribution of Carginogemic Ingredients Across Product Categories)
 - Circle size represents the count of carcinogenic ingredients within each product category.
 - Color coding to separate specific carcinogens by Chemical Name.
@@ -102,6 +102,24 @@ Analysis Question #1 Graph #1
 - Filter was added to separate out certain Primary Categories if desired.
 - Color code was added by Primary Category.
 - Initial Date Reported was converted to Month format on the x-axis of the graph.
+
+Analysis Question #2 Graphs:
+1. Bar Graph (Discontinued Count by Company)
+- Focused analysis on a specific time frame (2001–2020) to avoid unnecessary outliers like the "Null" category by using a a date filter.
+- Added filters in Tableau for Company Name.
+- Sort Company Name by descending order, listing companies with the most chemicals counted at the top and least chemical count at the bottom.
+- Add color code to Company Name to make graph communicative and easy to read.
+2. Line Graph (Trends in Product Discontinuations Overtime by Subcategory Line Graph)
+-  Convert dates into Years to accurately compare discontinuation dates and simply the visualization.
+-  Grouped data by "Company Name" field in Tableau.
+-  Grouped data by "Subcategory" field in Tableau.
+-  Apply a filter to Subcategory to only inlude 5 subcategories at random (Blushes, Eye Shadow, Face Powders, Hair Dyes and Colors, and Skin Cleansers).
+-  Add a color code to subcategories for the 5 subcategories listed above.
+3. Line Graph (Chemicals Banned by Date)
+- To eliminate the null values in the dataset, which indicate missing discontinuation dates, apply a filter by Year and deselect "Null" as a Year.
+- Convert dates into Years consistently.
+- Used Tableau's COUNT() function to calculate the total number of Chemical Ids discontinued each year to show the impact of these chemical bans.
+
 
 # Analysis and Results: 
 
