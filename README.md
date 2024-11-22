@@ -12,7 +12,7 @@ Tableau Analysis
 # Dataset Description:
 We have obtained our database from the US Data gov website at https://catalog.data.gov/dataset. 
 
-The California Safe Cosmetics Program (CSCP), under The CDPH collects data on products sold in California that contain ingredients linked to cancer, birth defects, or reproductive harm. Companies with over $1M in annual sales and operating since 2007 must report products with these chemicals. The data is aimed to help consumers make informed decisions about the products they use or are considering purchasing. Also, regulatory agencies may use this data to analyze trends in company's use of chemicals in cosmetics, monitoring a company's compliance with the Safe Cosmetics Act overtime.
+The California Safe Cosmetics Program (CSCP), under the California Department of Public Health (CDPH), collects data on products sold in California that contain ingredients linked to cancer, birth defects, or reproductive harm. Companies with over $1M in annual sales and operating since 2007 must report products with these chemicals. The data is aimed to help consumers make informed decisions about the products they use or are considering purchasing. Also, regulatory agencies may use this data to analyze trends in company's use of chemicals in cosmetics, monitoring a company's compliance with the Safe Cosmetics Act overtime.
 
 The dataset includes product labels, brands, manufacturers, categories, reported chemical ingredients (with CAS#), the number of chemicals per product, and dates of reporting or reformulation. It aims to inform the public about potentially hazardous cosmetics but may lack full coverage due to underreporting by companies. 
 
@@ -36,6 +36,10 @@ The data dimensions consists of rows and columns. There are records for individu
 
 
 # Analysis Question #1:
+Which companies have the highest number of products containing carcinogenic ingredients with a rating of at least 1A? 
+ - Here we can analyze distribution across product categories and companies
+ - Analyze chemical ingredient counts overtime
+
 
 # Analysis Question #2:
 
