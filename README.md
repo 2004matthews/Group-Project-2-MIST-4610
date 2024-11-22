@@ -37,9 +37,16 @@ The data dimensions consists of rows and columns. There are records for individu
 
 # Analysis Question #1:
 Which companies have the highest number of products containing carcinogenic ingredients with a rating of at least 1A? 
- - Here we can analyze distribution across product categories and companies
- - Analyze chemical ingredient counts overtime
+ - A rating of at least 1A  refers to the classification of carcinogenic ingredients. 1A is considered known to have carcinogenic potential for humans, based on evidence from human studies, meaning there is sufficient data to conclude it causes cancer in people.
+ - By filtering products by CAS number, we can see products with carcinogenic ingredients rated 1A or higher.
+ - The goal is to rank companies based on the number of products containing carcinogens.
 
+Here we will also analyze the carginogenic chemical distribution across product categories and companies...
+ - Certain product categories might contain a higher amount of carcinogenic ingredients, identifying trends in product formulations across different areas of the cosmetic industry.
+   
+Analyze chemical ingredient counts overtime
+ - Showing the ingredient counts overtime will show whether companies have been increasing/decreasing their use of carcinogenic ingredients in their formulations to attract consumers.
+ - We can observe trends in initial reporting dates and chemical dislosure counts over time. 
 
 # Analysis Question #2:
 
