@@ -58,11 +58,9 @@ Which companies have the most products reported with discontinued chemicals?
 - This will help identify companies that may be trying to limit certain ingredients from their forumulas or have products that contain chemicals no longer available.
 - Capture the products and chemicals that are associated with these discontinued ingredients.
   
-Here we can analyze product and chemical discontinuations overtime...
+Here we can analyze product and chemical discontinuations overtime, what is the correlation between product and chemical discontinuation?
 - Track the trend of product and chemical discontinuations overtime to see if there is a an increase or decrease in the use chemicals that have been discontinued.
 - This can show if certain years saw a significant discontinuations of chemicals, possibly due to regulatory changes or pressure from consumers in the marketplace.
-  
-Analyze the correlation between product and chemical discontinuation...
 - We can observe the relationship between when products were discontinued and when the chemicals in those products were discontinued.
 - Do products tend to be discontinued after the chemicals are phased out?
 
@@ -155,3 +153,4 @@ What did we find?
 
 
 # Tableau Packaged Workbook:
+
