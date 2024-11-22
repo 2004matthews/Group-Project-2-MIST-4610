@@ -97,7 +97,7 @@ Analysis Question #1 Graphs:
 - We used a stacked bar design to better display the counts for specific chemicals within companies.
 - A filter was added to only include 5 Chemical Names (Benzene, Estragole, Ethylene Glycol, Ethylene Oxide, Formaldehyde, Methanol, o-Phenylphenol, and Phenacetin). Filters for Chemical Name allow us to focus on specific subsets of the data.
 - A color code was added for these 5 chemicals listed above.
-3. Line Graph (Chemical Count Reporting Overtime Line Graph)
+3. Line Graph (Chemical Count Reporting Overtime)
 - Distinct counts of Chemical Ids plotted over time for each category to observe trends.
 - Filter was added to separate out certain Primary Categories if desired.
 - Color code was added by Primary Category.
@@ -109,7 +109,7 @@ Analysis Question #2 Graphs:
 - Added filters in Tableau for Company Name.
 - Sort Company Name by descending order, listing companies with the most chemicals counted at the top and least chemical count at the bottom.
 - Add color code to Company Name to make graph communicative and easy to read.
-2. Line Graph (Trends in Product Discontinuations Overtime by Subcategory Line Graph)
+2. Line Graph (Trends in Product Discontinuations Overtime by Subcategory)
 -  Convert dates into Years to accurately compare discontinuation dates and simply the visualization.
 -  Grouped data by "Company Name" field in Tableau.
 -  Grouped data by "Subcategory" field in Tableau.
@@ -137,8 +137,21 @@ What did we find?
 
 
 Analysis Question #2: Which companies have the most products reported with discontinued chemicals?
-What did we find?
 
+What did we find?
+- The data reveals that The Procter & Gamble Co. stands out as the company with the most products reported containing discontinued chemicals, with nearly 2,800 instances, far surpassing other companies. 
+- Following Procter & Gamble, Victoria’s Secret Beauty and Elizabeth Arden, Inc. have over 1,000 discontinued chemical reports each, while companies like MAESA LLC, Bath & Body Works, and The Boots Company PLC also report significant counts, ranging between 600 and 1,000. Smaller contributors, such as Yves Rocher Inc., Too Faced Cosmetics, and Nars Cosmetics, have fewer than 500 counts each.
+- Over time, the trend shows a peak in discontinued chemicals between 2013 and 2015, with 2013 being the year with nearly 2,000 reported bans. However, this number declined sharply by 2020, indicating a potential reduction in regulatory actions or improved compliance within the industry. 
+- The significant lead by Procter & Gamble may reflect either heightened regulatory scrutiny or their broader product portfolio, leading to more chemical reports compared to other companies.
+
+Analysis Question #2: After analyzing product and chemical discontinuations overtime, what is the correlation between product and chemical discontinuation?
+
+What did we find?
+- Here, CDPHId is used as a unique product identifier to count distinct discontinued products over many years. The line graph "Trends in Product Discontinuations Overtime by Subcategory" illustrates the distinct count of products discontinued over time, separated by color by subcategories. 
+- Peaks in certain years highlight potential regulatory impacts, market shifts, or changes in consumer demand. 
+- As a result of the chemical bans, product discontinuations are present. There is a correlation between the years where more chemicals are banned and increased product discontinuations.
+- For example, subcategories on the "Trends in Product Discontinuations Overtime by Subcategory" line graph experiencing significant discontinuation spikes, like "Hair Dyes and Colors", might rely on chemicals that became banned during this timeframe, aligning with the increase in 2016 on the "Chemicals Banned by Date" line graph timeline. Similarly in 2013, we see a noticeable spike to the “Eyeshadow” subcategory, correlating to the increase in 2013 on the "Chemicals Banned by Date" timeline.
+- Overall trends suggest that peaks in chemical bans (2010–2016) align with periods of higher product discontinuation, suggesting regulatory or market shifts impacting both. Regulatory actions banning chemicals likely prompted companies to discontinue products that depended on these ingredients.
 
 
 # Tableau Packaged Workbook:
