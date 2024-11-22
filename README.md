@@ -73,6 +73,11 @@ Importance:
 - Economic Impact: Companies with numerous discontinued chemicals might face reputational risks, affecting market value and sales.
 
 # Database Manipulations:
+Analysis Question #1:
+1. Filtering by Carcinogenic Ingredient Rating (aat least 1A):
+- Purpose: Focusing on chemicals with high carcinogenic potential and eliminate less important results from the data.
+- Implementation: A filter was added to include only products with carcinogenic ingredients meeting the 1A minimum.
+2. 
 
 # Analysis and Results: 
 
