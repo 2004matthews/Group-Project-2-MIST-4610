@@ -44,11 +44,21 @@ Which companies have the highest number of products containing carcinogenic ingr
 Here we will also analyze the carginogenic chemical distribution across product categories and companies...
  - Certain product categories might contain a higher amount of carcinogenic ingredients, identifying trends in product formulations across different areas of the cosmetic industry.
    
-Analyze chemical ingredient counts overtime
+Analyze chemical ingredient counts overtime...
  - Showing the ingredient counts overtime will show whether companies have been increasing/decreasing their use of carcinogenic ingredients in their formulations to attract consumers.
  - We can observe trends in initial reporting dates and chemical dislosure counts over time. 
 
+Importance: 
+- Public Health
+      - Identifies areas for improved safety regulations and transparency.
+- Economic Impact
+      - Helps consumers make informed purchasing decisions, affecting company sales and trust. 
+- Cultural Relevance
+      - Protects groups relying heavily on cosmetics in daily life or traditions.
+      - Protects groups that need to use these products everyday for work.
+  
 # Analysis Question #2:
+
 
 # Database Manipulations:
 
