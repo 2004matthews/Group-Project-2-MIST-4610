@@ -77,7 +77,31 @@ Analysis Question #1:
 1. Filtering by Carcinogenic Ingredient Rating (aat least 1A):
 - Purpose: Focusing on chemicals with high carcinogenic potential and eliminate less important results from the data.
 - Implementation: A filter was added to include only products with carcinogenic ingredients meeting the 1A minimum.
-2. 
+2. Grouping Data by Product Categories and Companies:
+- Purpose: Analyze the distribution of carcinogenic ingredients across product categories. This will help to identify companies with the highest counts.
+- Implementation: Group by "Primary Category". This groups products into categories like Hair Care, Personal Care, and Skin Care, for example. To count the number of products and ingredients calculations were done to count the number of carcinogenic chemicals and the amount of times they are included in each category or company.
+3. Chemical Count Measure:
+- Purpose: Determine how many unique carcinogenic chemicals are present in each product or associated with each company.
+- Implementation: A distinct count calculation was used to the "Chemical Name" field for each company or category grouping.
+4. Dates and Trends:
+- Purpose: Track reporting trends and chemical disclosures over time.
+- Implementation: Convert the "Initial Date Reported" field to a month-year format. Combine the distinct chemical counts by reporting month to visualize trends.
+
+Analysis Question #1 Graph #1
+1. Bubble Chart (Distribution of Carginogemic Ingredients Across Product Categories)
+- Circle size represents the count of carcinogenic ingredients within each product category.
+- Color coding to separate specific carcinogens by Chemical Name.
+- A filter was included to separate by company if desired. Filters for Company Name allow us to focus on specific subsets of the data.
+2. Bar Chart (Top Companies by Number of Products Containing Carginogenic Ingredients)
+- A condition to filter companies with at least three brands meeting the carcinogenic threshold was applied.
+- We used a stacked bar design to better display the counts for specific chemicals within companies.
+- A filter was added to only include 5 Chemical Names (Benzene, Estragole, Ethylene Glycol, Ethylene Oxide, Formaldehyde, Methanol, o-Phenylphenol, and Phenacetin). Filters for Chemical Name allow us to focus on specific subsets of the data.
+- A color code was added for these 5 chemicals listed above.
+3. Line Graph (Chemical Count Reporting Overtime Line Graph)
+- Distinct counts of Chemical Ids plotted over time for each category to observe trends.
+- Filter was added to separate out certain Primary Categories if desired.
+- Color code was added by Primary Category.
+- Initial Date Reported was converted to Month format on the x-axis of the graph.
 
 # Analysis and Results: 
 
