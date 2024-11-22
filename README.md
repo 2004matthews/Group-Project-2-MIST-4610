@@ -122,5 +122,23 @@ Analysis Question #2 Graphs:
 
 
 # Analysis and Results: 
+Analysis Question #1: Which companies have the highest number of products containing carcinogenic ingredients with a rating of at least 1A? Analyze distribution across product categories and companies. 
+
+What did we find?
+- Elizabeth Arden, Inc. and A.P. Deauville, LLC are among the top companies with the highest number of products containing carcinogenic ingredients, shown by the bar graph, which highlights their significantly higher counts of carcinogenic chemicals compared to other companies. 
+- The bubble chart illustrates that product categories such as fragrances, skin care products, hair coloring products, and bath products have the highest occurrence of carcinogenic ingredients. It is likely that companies like Elizabeth Arden and A.P. Deauville have their products distributed across these prominent categories.
+- Notably, fragrances appear to be particularly problematic, often containing multiple chemicals such as benzene and formaldehyde. In addition, hair coloring and bath products are notable contributors, indicating that companies with a high product count may specialize in these areas.
+
+Analysis Question #1: Analyze chemical ingredient counts overtime. 
+What did we find?
+- The line graph shows trends in reporting dates and chemical disclosure counts over time, separated by category. Peaks in chemical counts in the fall season months, especially for the “Makeup Products” category, correlate to an increased use of these carcinogenic ingredients. The correlation between categories may represent changes in chemical regulatory reporting and events like product launches or seasonal innovation.
+- For example, fall months could align with the coming of new regulations requiring companies to disclose additional chemical information, especially for carcinogenic ingredients. Many regulatory agencies set reporting deadlines that coincide with the end of fiscal quarters or calendar quarters. September often marks the end of Q3, potentially urging companies to disclose new chemical ingredients.
+- Additionally, spikes of chemical counts during the fall may be largely due to seasonal promotion. Fall is a common time for companies to launch new products for the holiday season, leading to increased reporting as part of the regulatory process for new product approval or chemical ingredient disclosure.
+
+
+Analysis Question #2: Which companies have the most products reported with discontinued chemicals?
+What did we find?
+
+
 
 # Tableau Packaged Workbook:
