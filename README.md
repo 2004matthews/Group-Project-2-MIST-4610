@@ -156,14 +156,14 @@ What did we find?
 
 Analysis Question #2: After analyzing product and chemical discontinuations overtime, what is the correlation between product and chemical discontinuation?
 
-![Screenshot 2024-11-23 150602](https://github.com/user-attachments/assets/1fa6f87f-d899-402d-9866-e62562bfe47e)
-
 What did we find?
 - Here, CDPHId is used as a unique product identifier to count distinct discontinued products over many years. The line graph "Trends in Product Discontinuations Overtime by Subcategory" illustrates the distinct count of products discontinued over time, separated by color by subcategories. 
 - Peaks in certain years highlight potential regulatory impacts, market shifts, or changes in consumer demand. 
 - As a result of the chemical bans, product discontinuations are present. There is a correlation between the years where more chemicals are banned and increased product discontinuations.
 - For example, subcategories on the "Trends in Product Discontinuations Overtime by Subcategory" line graph experiencing significant discontinuation spikes, like "Hair Dyes and Colors", might rely on chemicals that became banned during this timeframe, aligning with the increase in 2016 on the "Chemicals Banned by Date" line graph timeline. Similarly in 2013, we see a noticeable spike to the “Eyeshadow” subcategory, correlating to the increase in 2013 on the "Chemicals Banned by Date" timeline.
 - Overall trends suggest that peaks in chemical bans (2010–2016) align with periods of higher product discontinuation, suggesting regulatory or market shifts impacting both. Regulatory actions banning chemicals likely prompted companies to discontinue products that depended on these ingredients.
+
+![Screenshot 2024-11-23 150602](https://github.com/user-attachments/assets/21f7de83-f2c0-451f-ac37-b632b6ba8f81)
 
 
 # Tableau Packaged Workbook:
