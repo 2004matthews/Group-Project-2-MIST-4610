@@ -149,7 +149,14 @@ What did we find?
 - Over time, the trend shows a peak in discontinued chemicals between 2013 and 2015, with 2013 being the year with nearly 2,000 reported bans. However, this number declined sharply by 2020, indicating a potential reduction in regulatory actions or improved compliance within the industry. 
 - The significant lead by Procter & Gamble may reflect either heightened regulatory scrutiny or their broader product portfolio, leading to more chemical reports compared to other companies.
 
+![Screenshot 2024-11-23 150529](https://github.com/user-attachments/assets/38c2a68f-b45d-43bb-95cd-5e905f2fe0f8)
+
+![Screenshot 2024-11-23 150625](https://github.com/user-attachments/assets/936f8d82-0405-4923-9998-204215991133)
+
+
 Analysis Question #2: After analyzing product and chemical discontinuations overtime, what is the correlation between product and chemical discontinuation?
+
+![Screenshot 2024-11-23 150602](https://github.com/user-attachments/assets/1fa6f87f-d899-402d-9866-e62562bfe47e)
 
 What did we find?
 - Here, CDPHId is used as a unique product identifier to count distinct discontinued products over many years. The line graph "Trends in Product Discontinuations Overtime by Subcategory" illustrates the distinct count of products discontinued over time, separated by color by subcategories. 
