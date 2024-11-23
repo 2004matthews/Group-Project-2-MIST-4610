@@ -165,5 +165,3 @@ What did we find?
 
 ![Screenshot 2024-11-23 150602](https://github.com/user-attachments/assets/21f7de83-f2c0-451f-ac37-b632b6ba8f81)
 
-
-# Tableau Packaged Workbook:
